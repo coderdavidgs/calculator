@@ -1,0 +1,103 @@
+@media screen and (min-width: 1024px){
+    .calculator{
+        background-color: #B1ACAC;
+        width: 30%;
+        border-radius: 10px;
+        padding: 25px;
+        margin: 0 auto;
+        min-height: 80vh;
+        margin-top: 20px;
+    }
+
+    .panel{
+        background-color: #fff;
+        height: 10vh;
+        border-radius: 10px;
+        font-size: 48px;
+        padding: 25px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+    .operator{
+        background-color: #FCDA63;
+        height: 10vh;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .keyboard{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    .keyboard div{
+        width: 25%;
+    }
+
+    .keyboard div:hover{
+        opacity: 0.7;
+        transition: .5s;
+    }
+
+    .number{
+        background-color: #fff;
+        height: 10vh;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .calculator{
+        background-color: #B1ACAC;
+        width: 45%;
+        border-radius: 10px;
+        padding: 25px;
+        margin: 0 auto;
+        min-height: 80vh;
+        margin-top: 20px;
+    }
+
+    .panel{
+        background-color: #fff;
+        height: 10vh;
+        border-radius: 10px;
+        font-size: 48px;
+        padding: 25px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .calculator{
+        background-color: #B1ACAC;
+        width: 70%;
+        border-radius: 10px;
+        padding: 25px;
+        margin: 0 auto;
+        min-height: 80vh;
+        margin-top: 20px;
+    }
+
+    .panel{
+        background-color: #fff;
+        height: 10vh;
+        border-radius: 10px;
+        font-size: 48px;
+        padding: 25px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
