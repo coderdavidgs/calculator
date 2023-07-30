@@ -1,5 +1,0 @@
-#Welcome to the Calculator.
-#For execute this project Type it in terminal:
-    $npm install
-    $npm start
-#This project use Javascript with ReactJS.
